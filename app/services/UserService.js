@@ -5,6 +5,9 @@ class UserService {
     return new User(id, username, name, "Sin bio")
   }
 
+  static getInfo(user){
+    return Object.values(user)
+  }
 
 }
 
